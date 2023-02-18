@@ -1,0 +1,23 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+	ifstream in_stream;             // 1- Open the source code file by calling appropriate function
+	in_stream.open("main.cpp");
+
+    char character;                 // 2- Get the first character and store it in temporary variable
+	in_stream.get(character);
+
+	while (! in_stream.eof())
+	{
+		cout << character;          // 3- Output the character on console by using the standard output stream functions 'cout'
+		in_stream.get(character);   // 4- Get the next character
+	}
+
+	in_stream.close();              // 5- close the source code file
+
+	return 0;
+}

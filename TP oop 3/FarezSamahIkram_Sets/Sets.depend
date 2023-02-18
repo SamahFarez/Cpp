@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1652200504 source:c:\users\pc\desktop\c++\tp oop 3\sets\sets.cpp
+	"Sets.h"
+
+1652118744 c:\users\pc\desktop\c++\tp oop 3\sets\sets.h
+	<iostream>
+
+1652118171 source:c:\users\pc\desktop\c++\tp oop 3\sets\main.cpp
+	"Sets.cpp"
+
+1652200504 c:\users\pc\desktop\c++\tp oop 3\sets\sets.cpp
+	"Sets.h"
+
+1652202680 source:c:\users\pc\desktop\c++\tp oop 3\farezsamahikram_sets\main.cpp
+	"Sets.h"
+	"Sets.cpp"
+
+1652917134 c:\users\pc\desktop\c++\tp oop 3\farezsamahikram_sets\sets.h
+	<iostream>
+
+1652202770 c:\users\pc\desktop\c++\tp oop 3\farezsamahikram_sets\sets.cpp
+	"Sets.h"
+
+1652202770 source:c:\users\pc\desktop\c++\tp oop 3\farezsamahikram_sets\sets.cpp
+	"Sets.h"
+

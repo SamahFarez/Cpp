@@ -1,0 +1,67 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    // Pointers allow the indirect manipulation of data stored in memory
+
+    // Pointer variables are declared using *
+    // To set a pointer's value to the address of another variable, use the & operator
+
+    int val = 5;
+    int* ptr = &val;
+
+    cout << "The address of the pointer is: " << &ptr << endl;
+    cout << "The content of the pointer is: " << *ptr << endl;
+    cout << "The pointed value is: " << val << endl;
+    cout << "The address of the pointed value (ptr) is: " << ptr << endl;
+    cout << "The address of the pointed value (&val) is: " << &val << endl;
+
+    // ------------------------------------------------------------------------------------------------
+
+    // Initialization of a pointer
+
+    int* ptr1;              // It is not recommended to not initialize the pointer to NULL
+                            // The pointer is initialized to a non-NULL garbage value that does not point to anything real
+
+    int* ptr2 {};           // null pointer which is not holding an address
+
+    int* ptr3 { nullptr };  // can use nullptr to initialize a pointer to a null pointer
+
+    cout << endl;
+    cout << "The address of pointer 1 is: " << ptr1 << endl;
+    cout << "The address of pointer 2 is: " << ptr2 << endl;
+    cout << "The address of pointer 3 is: " << ptr3 << endl;
+
+    // ------------------------------------------------------------------------------------------------
+
+    // Modify value stored in a variable using pointer
+
+    int num = 20;
+    int* ptr4 = &num;
+
+    cout << "\nThe value of num is: " << num << endl;;
+
+    // Use the indirection operator (*) to change the value that the pointer references
+    *ptr4 = 30;
+
+    cout << "The new value of num is: " << num << endl;
+
+    // ------------------------------------------------------------------------------------------------
+
+    // Array names can be used as constant pointers
+    // Pointers can be used as array names
+
+    int numbers[] = {10, 20, 30, 40, 50};
+    int* numPtr = numbers;
+
+    cout << "\nThe elements of the array:" << endl;
+    cout << numbers[0] << endl;                     // prints 10
+    cout << *numPtr << endl;                        // prints 10
+    cout << numbers[1] << endl;                     // prints 20
+    cout << *(numPtr + 1) << endl;                  // prints 20
+    cout << numPtr[2] << endl;                      // prints 30
+
+    return 0;
+}

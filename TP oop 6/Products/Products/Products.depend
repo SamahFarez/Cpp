@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1653588454 source:c:\users\pc\desktop\c++\tp oop 6\products\mainproducts.cpp
+	"Products.cpp"
+
+1653655543 c:\users\pc\desktop\c++\tp oop 6\products\products.cpp
+	"Products.h"
+
+1653828339 c:\users\pc\desktop\c++\tp oop 6\products\products.h
+	<iostream>
+
+1653830073 source:c:\users\pc\desktop\c++\tp oop 6\products\prepackedfood.cpp
+	"PrepackedFood.h"
+
+1653830517 c:\users\pc\desktop\c++\tp oop 6\products\prepackedfood.h
+	"Products.h"
+	<iostream>
+
+1653830517 source:c:\users\pc\desktop\c++\tp oop 6\products\products.cpp
+	"Products.h"
+
+1653830065 source:c:\users\pc\desktop\c++\tp oop 6\products\freshfood.cpp
+	"FreshFood.h"
+
+1653831862 c:\users\pc\desktop\c++\tp oop 6\products\freshfood.h
+	"Products.h"
+
+1653828257 source:c:\users\pc\desktop\c++\tp oop 6\products\products\mainproducts.cpp
+	"../PrepackedFood.h"
+	"../FreshFood.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1650657244 source:c:\users\pc\desktop\c++\tp oop 2\lab2_date.cpp
+	"LAB2_DATE.h"
+	<iomanip>
+	<iostream>
+
+1650656074 c:\users\pc\desktop\c++\tp oop 2\lab2_date.h
+	<iostream>
+	<iomanip>
+
+1650657066 source:c:\users\pc\desktop\c++\tp oop 2\main.cpp
+	"LAB2_DATE.h"
+

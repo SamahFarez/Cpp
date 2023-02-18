@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1654502633 source:c:\users\pc\desktop\c++\tp oop 7\mainpro.cpp
+	"PrepackedFood.h"
+	"FreshFood.h"
+
+1654502354 c:\users\pc\desktop\c++\tp oop 7\prepackedfood.h
+	"Product.h"
+
+1654502231 c:\users\pc\desktop\c++\tp oop 7\product.h
+	<iostream>
+
+1654502430 c:\users\pc\desktop\c++\tp oop 7\freshfood.h
+	"Product.h"
+

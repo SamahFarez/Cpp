@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1654680185 source:c:\users\pc\desktop\c++\tp oop 8\mainexception.cpp
+	<iostream>
+	"DivideByZeroException.h"
+	"OverflowException.h"
+	"MathException.h"
+	"RootOfNegativeException.h"
+	<cmath>
+
+1654678376 c:\users\pc\desktop\c++\tp oop 8\dividebyzeroexception.h
+	"MathException.h"
+
+1654677519 c:\users\pc\desktop\c++\tp oop 8\mathexception.h
+	<iostream>
+	<exception>
+
+1654680089 c:\users\pc\desktop\c++\tp oop 8\overflowexception.h
+	"MathException.h"
+
+1654680089 c:\users\pc\desktop\c++\tp oop 8\rootofnegativeexception.h
+	"MathException.h"
+

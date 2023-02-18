@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+
+int nb_occ1(string s, char c){
+
+    int counter = 0;
+
+    for(int i=0; i<s.length(); i++){
+
+        if(s[i]== c)
+        counter ++;
+    }
+    
+    return counter;
+}
+
+int nb_occ2(char s[], char c){
+
+    int counter = 0, i =0;
+
+    while(s[i] != '\0'){
+
+        if(s[i]==c)
+        counter ++;
+
+        i++;
+    }
+
+    return counter;
+}
+
+int nb_occ3(char *s, char c){
+
+    int counter = 0, i =0;
+
+    while(*(s+i) != '\0'){
+
+        if(*(s+i)==c)
+        counter ++;
+
+        i++;
+    }
+
+    return counter;
+}
+
+int main() {
+
+    string s;
+    cout << "Please enter a text (string)" << endl;
+    getline(cin, s);
+
+    char ac[100];
+    cout << "Please enter a text (array of char)" << endl;
+    cin.getline(ac, 100);
+
+    char c;
+    cout << "Please enter a char" << endl;
+    cin >> c;
+
+    cout << "The output of nb_occ1 is: " << nb_occ1(s, c) << endl;
+    cout << "The output of nb_occ2 is: " << nb_occ2(ac, c) << endl;
+    cout << "The output of nb_occ3 is: " << nb_occ3(ac, c) << endl;
+}

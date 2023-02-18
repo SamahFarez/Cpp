@@ -1,0 +1,27 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+    ifstream inData;                                    // declares input stream
+    inData.open("ex4_input.txt");                       // link the variable inData to the input file "ex4_input.txt"
+
+    ofstream outData;                                   // declares output stream
+    outData.open("ex4_output.txt");                     // link the variable outData to the output file "ex4_output.txt"
+
+    string str;                                         // declares a string variable
+    int numLines = 0;                                   // number of lines
+
+    while (!inData.eof()){
+
+        getline(inData, str);                           // get each line and store in the string variable
+        outData  << ++numLines << ": " << str << endl;
+    }
+
+    inData.close();
+    outData.close();
+
+    return 0;
+}

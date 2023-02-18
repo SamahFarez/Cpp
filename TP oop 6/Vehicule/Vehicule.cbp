@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Vehicule" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Vehicule" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Vehicule" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Audi.cpp" />
+		<Unit filename="Audi.h" />
+		<Unit filename="Bike.cpp" />
+		<Unit filename="Bike.h" />
+		<Unit filename="Car.cpp" />
+		<Unit filename="Car.h" />
+		<Unit filename="Ford.cpp" />
+		<Unit filename="Ford.h" />
+		<Unit filename="MainVahicle.cpp" />
+		<Unit filename="Scooter.cpp" />
+		<Unit filename="Scooter.h" />
+		<Unit filename="SportBike.cpp" />
+		<Unit filename="SportBike.h" />
+		<Unit filename="Vehicle.cpp" />
+		<Unit filename="Vehicle.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

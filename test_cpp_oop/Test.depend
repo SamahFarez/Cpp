@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1654793983 source:c:\users\pc\desktop\test\book.cpp
+	"book.h"
+
+1654794095 c:\users\pc\desktop\test\book.h
+	"test.h"
+
+1654794160 c:\users\pc\desktop\test\test.h
+	<iostream>
+
+1654794130 source:c:\users\pc\desktop\test\audio.cpp
+	"audio.h"
+
+1654794095 c:\users\pc\desktop\test\audio.h
+	"test.h"
+
+1654794314 source:c:\users\pc\desktop\test\test.cpp
+	"test.h"
+
+1654793807 source:c:\users\pc\desktop\test\main.cpp
+	"book.h"
+	"audio.h"
+

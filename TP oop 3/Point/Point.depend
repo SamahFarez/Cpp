@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1651056865 source:c:\users\pc\desktop\c++\tp oop 3\point\point.cpp
+
+1651083007 source:c:\users\pc\desktop\c++\tp oop 3\point\main.cpp
+	"point.h"
+	<iostream>
+
+1651707131 c:\users\pc\desktop\c++\tp oop 3\point\point.h
+	<algorithm>
+	<iostream>
+
+1651707131 source:c:\users\pc\desktop\c++\tp oop 3\point\point2.cpp
+

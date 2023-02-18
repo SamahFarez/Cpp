@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1647830113 source:d:\myprojects\p5\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cstdlib>
+	"D:/MyProjects/P4/clientData.h"
+
+1027587828 d:\myprojects\p4\clientdata.h
+	<iostream>
+
+1027590686 source:d:\myprojects\p4\clientdata.cpp
+	<iostream>
+	<cstring>
+	"clientData.h"
+

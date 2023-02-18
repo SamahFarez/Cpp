@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1651852788 source:c:\users\pc\desktop\c++\challenges\myclass\myclass.cpp
+	"MyClass.h"
+
+1651852706 c:\users\pc\desktop\c++\challenges\myclass\myclass.h
+	<iostream>
+
+1651853034 source:c:\users\pc\desktop\c++\challenges\myclass\mainclass.cpp
+	"MyClass.h"
+

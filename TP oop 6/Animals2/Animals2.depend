@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1653833040 source:c:\users\pc\desktop\c++\tp oop 6\animals\mainanimals.cpp
+	"BlueMarine.h"
+
+1653833040 c:\users\pc\desktop\c++\tp oop 6\animals\mammals.h
+	<iostream>
+
+1653832749 c:\users\pc\desktop\c++\tp oop 6\animals\bluemarine.h
+	"Mammals.h"
+	"MarineAnimals.h"
+
+1653833040 c:\users\pc\desktop\c++\tp oop 6\animals\marineanimals.h
+	<iostream>
+

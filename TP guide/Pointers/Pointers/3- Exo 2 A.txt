@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+   float arr[5], sum = 0;
+
+   cout << "Enter any 5 numbers:" << endl;
+   for (int i = 0; i < 5; i++) {
+       cin >> arr[i];
+   }
+
+   float *ptr = arr;
+   for (int i = 0; i < 5; i++) {
+       sum = sum + *(ptr + i);
+   }
+
+   cout << "The sum of the array elements is: " << sum;
+
+   return 0;
+
+}

@@ -1,0 +1,59 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+    // --------------------------------  Input File --------------------------------
+
+    ifstream inData;                                    // declares input stream
+    inData.open("ex3_input.txt");                       // links the variable inData to the input file "ex3_input.txt"
+
+    if (inData.is_open())
+    cout << "Input file opened successfully" << endl;
+
+    else{
+
+        cout << "Error opening input file" << endl;
+        exit(0);
+    }
+
+    // --------------------------------  Output File --------------------------------
+
+    ofstream outData;                                   // declares output stream
+    outData.open("ex3_output.txt");                     // links the variable outData to the output file "ex3_output.txt"
+
+    if (outData.is_open())
+    cout << "Output file opened successfully" << endl;
+
+    else{
+
+        cout << "Error opening output file" << endl;
+        exit(0);
+    }
+
+    // ----------------------------------  Program ----------------------------------
+
+    float val, S=0, n=0;
+
+    inData >> val;
+
+    while (! inData.eof())
+    {
+        S+=val;
+        n+=1;
+        inData>> val;
+    }
+
+    S+=val;
+    n+=1;
+
+    if (n!=0 ) {
+
+        outData<< "Sum: " << S << endl;
+        outData<< "Average: " << S/n << endl;
+    }
+
+    return 0;
+}

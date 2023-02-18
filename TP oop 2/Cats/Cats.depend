@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1652581627 source:c:\users\pc\desktop\c++\tp oop 2\cats\maincats.cpp
+	"cat.h"
+
+1652579660 c:\users\pc\desktop\c++\tp oop 2\cats\cat.h
+	<iostream>
+
+1652579862 source:c:\users\pc\desktop\c++\tp oop 2\cats\cat.cpp
+	"cat.h"
+	<time.h>
+

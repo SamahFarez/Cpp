@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1647831799 source:d:\myprojects\ecrbin\main.cpp
+	<iostream>
+	<fstream>
+

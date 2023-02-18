@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1653830578 source:c:\users\pc\desktop\c++\tp oop 6\animalspoly\mainpoly.cpp
+	"Mammals.h"
+	"Marine.h"
+
+1653681606 c:\users\pc\desktop\c++\tp oop 6\animalspoly\mammals.h
+	"Blue.h"
+
+1653681491 c:\users\pc\desktop\c++\tp oop 6\animalspoly\blue.h
+	<iostream>
+
+1653681606 c:\users\pc\desktop\c++\tp oop 6\animalspoly\marine.h
+	"Blue.h"
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1654731005 source:c:\users\pc\desktop\c++\tp oop 7\vector\vector.cpp
+	"BitVector.h"
+
+1654730988 c:\users\pc\desktop\c++\tp oop 7\vector\bitvector.h
+	"Vector.h"
+
+1654731046 c:\users\pc\desktop\c++\tp oop 7\vector\vector.h
+	<iostream>
+

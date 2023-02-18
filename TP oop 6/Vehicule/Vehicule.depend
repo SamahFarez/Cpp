@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1653899611 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\mainvahicle.cpp
+	"Audi.h"
+	"Ford.h"
+	"SportBike.h"
+	"Scooter.h"
+
+1653902155 c:\users\pc\desktop\c++\tp oop 6\vehicule\audi.h
+	"Car.h"
+
+1653901805 c:\users\pc\desktop\c++\tp oop 6\vehicule\car.h
+	"Vehicle.h"
+
+1653901805 c:\users\pc\desktop\c++\tp oop 6\vehicule\vehicle.h
+	<iostream>
+
+1653902657 c:\users\pc\desktop\c++\tp oop 6\vehicule\scooter.h
+	"Bike.h"
+
+1653901805 c:\users\pc\desktop\c++\tp oop 6\vehicule\bike.h
+	"Vehicle.h"
+
+1653902421 c:\users\pc\desktop\c++\tp oop 6\vehicule\ford.h
+	"Car.h"
+
+1653902777 c:\users\pc\desktop\c++\tp oop 6\vehicule\sportbike.h
+	"Bike.h"
+
+1653897771 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\include\bike.cpp
+
+1653897726 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\include\car.cpp
+
+1653897790 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\include\ford.cpp
+
+1653902617 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\bike.cpp
+	"Bike.h"
+
+1653902204 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\car.cpp
+	"Car.h"
+
+1653902314 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\ford.cpp
+	"Ford.h"
+
+1653901832 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\scooter.cpp
+	"Scooter.h"
+
+1653901837 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\sportbike.cpp
+	"SportBike.h"
+
+1653901843 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\vehicle.cpp
+	"Vehicle.h"
+
+1653901805 source:c:\users\pc\desktop\c++\tp oop 6\vehicule\audi.cpp
+	"Audi.h"
+
